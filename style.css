@@ -1,0 +1,43 @@
+ol {
+    list-style-type: none;
+    counter-reset: elementcounter;
+    padding-left: 0;
+  }
+  
+  li.step:before {
+    content: "Step " counter(elementcounter) ". ";
+    counter-increment: elementcounter;
+    font-weight: bold;
+  }
+
+  li {
+      margin-top: 1em;
+  }
+
+  p {
+      text-indent: 25px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+    width: 300px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .wrapper {
+      padding-left: 50px;
+      padding-right: 50px;
+      border: 5px solid #363636;
+      border-radius: 10px;
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      min-width: 500px;
+  }

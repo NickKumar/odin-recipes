@@ -1,1 +1,3 @@
-# odin-recipes
+﻿# odin-recipes
+
+First Project. Silly recipe site.
