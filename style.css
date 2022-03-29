@@ -37,7 +37,7 @@ ol {
       padding-bottom: 50px;
       border: 5px solid #363636;
       border-radius: 25px;
-      box-shadow: 3px 3px #888888;
+      box-shadow: 3px 3px #222;
       margin-left: 10%;
       margin-right: 10%;
       min-width: 500px;
@@ -58,9 +58,10 @@ ol {
     text-decoration: underline;
   }
 
-  .wrapper {
+  body {
     background-image: linear-gradient(to bottom right, #16395c, #123456);
-    min-height: 97vh;
+    min-height: 100%;
     padding: 3px;
+    background-attachment: fixed;
   }
 
