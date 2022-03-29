@@ -27,8 +27,9 @@ ol {
     width: 300px;
   }
 
-  h1 {
+  h1.title {
       text-align: center;
+      text-decoration: underline;
   }
 
   .wrap2 {
@@ -54,10 +55,6 @@ ol {
     padding: 5px;
   }
   
-  h1 {
-    text-decoration: underline;
-  }
-
   body {
     background-image: linear-gradient(to bottom right, #16395c, #123456);
     min-height: 100%;
