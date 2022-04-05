@@ -2,6 +2,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wrapper {
+    padding-top: 20px;
+}
+
 ol {
     list-style-type: none;
     counter-reset: elementcounter;
@@ -49,6 +53,8 @@ h1.title {
       margin-right: 10%;
       min-width: 300px;
       background-color: floralwhite;
+      margin-bottom: 100px;
+      z-index: 1;
 }
 
 a {
@@ -66,7 +72,6 @@ a.white {
 body {
     background-image: linear-gradient(to bottom right, #16395c, #123456);
     min-height: 100%;
-    padding: 3px;
     background-attachment: fixed;
 }
 
@@ -84,4 +89,34 @@ body {
 
 .box {
     display: flex;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    min-width: 300px;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+
+}
+
+.footer p {
+    text-align: center;
+    text-indent: 0;
+    padding: 0;
+    margin: 5px;
+}
+
+.spacer {
+    width: 20%;
+}
+
+.mid {
+    width: 60%;
+    background-color: floralwhite;
+    border-top: 5px solid #363636;
+    border-left: 5px solid #363636;
+    border-right: 5px solid #363636;
 }
